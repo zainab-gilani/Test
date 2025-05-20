@@ -14,7 +14,8 @@ h1 {
 
 form {
     display: inline-block;
-    background-color: #CBD7EE;
+    text-align: left;
+    width: 600px;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 0 10px #dfe1ec;
