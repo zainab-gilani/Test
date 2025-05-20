@@ -72,6 +72,15 @@ button {
     font-style: normal;
 }
 
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 90px;
+    height: auto;
+    z-index: 1000;
+}
+
 /* fonts */
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
