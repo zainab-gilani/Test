@@ -13,6 +13,14 @@ form {
     box-shadow: 0 0 10px #dfe1ec;
 }
 
+.center-wrapper {
+    display: flex;
+    justify-content: center;    /* centers horizontally */
+    align-items: center;        /* centers vertically */
+    height: 100vh;              /* takes up full screen height */
+    background-color: #CBD7EE;
+}
+
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
