@@ -1,16 +1,24 @@
-<html>
+<html lang="en">
 <head>
-<link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Abril Fatface';font-size: 22px;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <title>Login</title>
 </head>
+
+
 <body>
 
-<title>Login</title>
-<h1 style="text-align:center; color:#2D5289; font-size:300%;">UniMatch</h1>
-<p style="color:#2D5289;">This is a paragraph !!</p>
+<h1 style="text-align:center; font-family: 'Abril Fatface',serif; color:#2D5289; font-size:300%;">UniMatch</h1>
 
-<button>button</button>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
