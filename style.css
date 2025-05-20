@@ -21,12 +21,11 @@ form {
     box-shadow: 0 0 10px #dfe1ec;
 }
 
-.center-wrapper {
-    display: flex;
-    justify-content: center;    /* centers horizontally */
-    align-items: center;        /* centers vertically */
-    height: 100vh;              /* takes up full screen height */
-    background-color: #CBD7EE;
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #2D5289;
+    margin-left: 8px;
 }
 
 .abril-fatface-regular {
