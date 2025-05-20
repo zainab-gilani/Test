@@ -28,6 +28,53 @@ label {
     margin-left: 8px;
 }
 
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 18px;
+    font-size: 1rem;
+    border: none;
+    background-color: #d8e2f0;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 30px auto 20px auto;
+    padding: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #d8e2f0;
+    color: #2D5289;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.extra-options {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.extra-options a {
+    color: #2D5289;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.extra-options em {
+    display: block;
+    margin: 10px 0;
+    font-style: normal;
+}
+
+/* fonts */
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
